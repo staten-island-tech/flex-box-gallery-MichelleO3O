@@ -5,12 +5,15 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  display: flex;
-  justify-content: space-around;
 }
 
 .card-headers {
   font-size: 2rem;
   border: 1px solid red;
   width: 28%;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: space-around;
 }
