@@ -6,11 +6,17 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+body {
+  background-image: url("blu background.jpg");
+  object-fit: contain;
+}
 
 .card-headers {
   font-size: 2rem;
-  border: 1px solid red;
-  width: 28%;
+  background-color: aquamarine;
+  width: 25vw;
+  padding: 100px;
+  margin: 25px;
 }
 
 .all-cards {
