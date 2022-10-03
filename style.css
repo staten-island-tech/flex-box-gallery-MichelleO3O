@@ -8,18 +8,37 @@ body,
 }
 body {
   background-image: url("blu background.jpg");
-  object-fit: contain;
+  object-fit: none;
+}
+
+.banner {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .card-headers {
   font-size: 2rem;
-  background-color: aquamarine;
-  width: 25vw;
-  padding: 100px;
+  background-color: rgb(247, 215, 229);
+  width: 20vw;
+  padding: 200px;
   margin: 25px;
+  border-radius: 15px;
+  text-align: center;
 }
 
 .all-cards {
   display: flex;
   justify-content: space-around;
+}
+
+.img {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
