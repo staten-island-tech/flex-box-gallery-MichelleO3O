@@ -9,21 +9,23 @@ body,
 body {
   background-image: url("blu background.jpg");
   object-fit: none;
+  font-family: "Concert One", cursive;
 }
 
 .banner {
   font-size: 40px;
+  color: white;
   text-align: center;
   margin-top: 15px;
   padding: 20px;
-  background-color: white;
+  background-color: rgb(194, 231, 252);
   border-radius: 10px;
 }
 
 .card-headers {
   font-size: 2rem;
-  background-color: rgb(247, 215, 229);
-  width: 20vw;
+  background-color: rgb(255, 227, 234);
+  width: 30vw;
   padding: 200px;
   margin: 25px;
   border-radius: 15px;
@@ -36,7 +38,7 @@ body {
 }
 
 .img {
-  max-width: 30%;
+  max-width: 20%;
   height: auto;
   display: block;
   margin-left: auto;
