@@ -37,6 +37,61 @@ body {
   flex-direction: column;
   color: black;
   box-shadow: 15px 15px rgb(252, 164, 201);
+  transition: 0.3s all ease;
+}
+.A1:hover {
+  transform: scale(105%);
+}
+.A2:hover {
+  animation: wobble 0.7s ease-in-out;
+}
+@keyframes wobble {
+  0% {
+  }
+  20% {
+    transform: translateY(-5%);
+  }
+  40% {
+    transform: translateY(5%);
+  }
+  60% {
+    transform: translateY(-10%);
+  }
+  80% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.A3:hover {
+  animation: spin 1.5s linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.A4:hover {
+  transform: skew(-10deg);
+}
+.A5:hover {
+  animation: buzz 0.05s;
+  animation-duration: 0.15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes buzz {
+  50% {
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
 }
 
 .all-cards {
