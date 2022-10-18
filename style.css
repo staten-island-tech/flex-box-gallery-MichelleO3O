@@ -104,4 +104,11 @@ body {
   height: 200px;
 }
 
-@media screen and (max-width);
+@media screen and (max-width 1920px) {
+}
+
+@media screen and (max-width 1536px) {
+}
+
+@media screen and (max-width 1170px) {
+}
