@@ -99,16 +99,33 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .img {
   height: 200px;
 }
 
-@media screen and (max-width 1920px) {
+@media screen and (max-width: 1366px) {
+  .img {
+    height: 175px;
+  }
+  .card {
+    padding: 175px;
+  }
 }
 
-@media screen and (max-width 1536px) {
+@media screen and (max-width: 768px) {
+  .img {
+    height: 135px;
+  }
+  .card {
+    padding: 150px;
+  }
 }
 
-@media screen and (max-width 1170px) {
+@media (max-width: 390px) {
+  .img {
+    height: 100px;
+  }
+  .card {
+    padding: 100px;
+  }
 }
